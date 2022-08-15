@@ -30,7 +30,7 @@ pool:
 - task: Npm@1
   inputs:
     command: 'install'
-    workingDir: 'adeyomi-a / angular'
+    workingDir: 'adeyomi-a/angular-cli'
 
 - task: PublishBuildArtifacts@1
   inputs:
